@@ -34,6 +34,60 @@ const questions = [
         { text: "Psalm 119:10", correct: false},
         { text: "Esther 6:9", correct: true},
     ]  
+},
+{
+    question: "Combine terms: 12a + 26b -4b -16a",
+    answers: [
+        { text: "4a + 22b", correct: false},
+        { text: "-28a + 30b", correct: false},
+        { text: "-4a + 22b", correct: true},
+        { text: "28a + 30b", correct:false},
+    ]
+},
+{
+    question: "Multiply: (x - 4)(x + 5)",
+    answers: [
+        { text:"x2 + 5x - 20", correct: false},
+        { text:"x2 - 4x - 20", correct: false},
+        { text:"x2 - x - 20", correct: false},
+        { text:" x2 + x - 20", correct: true},
+    ]
+},
+{
+    question: " Factor: 5x2 - 15x - 20",
+    answers: [
+        { text:"5(x-4)(x+1)", correct: true},
+        { text:"-2(x-4)(x+5)", correct: false},
+        { text:"-5(x+4)(x-1)", correct: false},
+        { text:"5(x+4)(x+1)", correct: false},
+    ]
+},
+{
+    question: "Solve for x: 2x - y = (3/4)x + 6",
+    answers: [
+        { text:"(y + 6)/5", correct: false},
+        { text:"4(y + 6)/5", correct: true},
+        { text:"(y + 6)", correct: false},
+        { text:"4(y - 6)/5", correct: false},
+    ]
+},
+{
+    question: "Simplify:(4x2 - 2x) - (-5x2 - 8x)",
+    answers: [
+        { text:"3x(3x + 2)", correct: true},
+        { text:"4x+5", correct: false},
+        { text:"9x+7", correct: false},
+        { text:"9x+2", correct: false},
+    ]
+},
+{
+    question: "Which is the smallest?",
+    answers: [
+        { text:" -1,", correct: true},
+        { text:" -1/2", correct: false},
+        { text:"0", correct:false},
+        { text:"3", correct: false}
+    ]
 }
 ];
 const questionElement = document.getElementById("question");
